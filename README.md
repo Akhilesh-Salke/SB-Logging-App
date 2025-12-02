@@ -5,85 +5,85 @@ A simple Spring Boot application demonstrating logging using SLF4J and Logback.
 It shows how to log messages at different levels like DEBUG, INFO, and ERROR while handling exceptions.
 
 _🛠 Tech Stack_  
-Technology	Version
-Java	17
-Spring Boot	3.x
-Logging	SLF4J + Logback
-Build Tool	Maven
-IDE	Eclipse / IntelliJ
-📌 Features
+Technology	Version  
+Java	17  
+Spring Boot	3.x  
+Logging	SLF4J + Logback  
+Build Tool	Maven  
+IDE	STS  
+_📌 Features_  
 
-REST API endpoint with logging enabled
+REST API endpoint with logging enabled  
 
-Demonstrates different logging levels
+Demonstrates different logging levels  
 
-Exception logging using try-catch
+Exception logging using try-catch  
 
-Simple and beginner-friendly example
+Simple and beginner-friendly example  
 
-📂 Project Structure
-src/main/java
- └── in.akhilesh
-     └── MsgRestController.java
+_📂 Project Structure_  
+src/main/java  
+ └── in.akhilesh  
+     └── MsgRestController.java  
 
-src/main/resources
- └── application.properties
+src/main/resources  
+ └── application.properties  
 
-pom.xml
+pom.xml  
 
-🚀 How to Run the Project
-1️⃣ Clone the repository
-git clone https://github.com/<your-username>/<repo-name>.git
+_🚀 How to Run the Project_  
+1️⃣ Clone the repository  
+git clone https://github.com/<your-username>/<repo-name>.git  
 
-2️⃣ Move into project folder
-cd <repo-name>
+2️⃣ Move into project folder  
+cd <repo-name>  
 
-3️⃣ Run the application
-mvn spring-boot:run
-
-
-or simply run Application.java from your IDE.
-
-🌐 Test the REST API
-
-Open browser / Postman and enter:
-
-http://localhost:8080/welcome
+3️⃣ Run the application  
+mvn spring-boot:run  
 
 
-You will receive a string response:
+or simply run Application.java from your IDE.  
 
-Welcome to First Spring Application
+_🌐 Test the REST API_  
 
+Open browser enter:  
 
-Logs will be visible in the console (and file if configured).
-
-🧪 Controller Logging Example
-logger.debug("method started");
-logger.info("method executed successfully");
-logger.error(e.getMessage());
+http://localhost:8080/welcome  
 
 
-This project intentionally triggers a NullPointerException to show error logging inside the catch block.
+You will receive a string response:  
 
-🔧 Dependencies Used
-<dependency>
-    <groupId>org.springframework.boot</groupId>
-    <artifactId>spring-boot-starter-web</artifactId>
-</dependency>
+Welcome to First Spring Application  
 
 
-Spring Boot starter already includes SLF4J and Logback.
+Logs will be visible in the console (and file if configured).  
 
-📈 Future Enhancements
+_🧪 Controller Logging Example_  
+logger.debug("method started");  
+logger.info("method executed successfully");  
+logger.error(e.getMessage());  
 
-Add custom logging pattern (logback.xml)
 
-Save logs into files with rotation policy
+This project intentionally triggers a NullPointerException to show error logging inside the catch block.  
 
-Integrate monitoring tools (ELK / Splunk)
+_🔧 Dependencies Used_  
+<dependency>  
+    <groupId>org.springframework.boot</groupId>  
+    <artifactId>spring-boot-starter-web</artifactId>  
+</dependency>  
 
-🙌 Contributing
 
-Contributions are welcome!
-Feel free to fork and enhance the project.
+Spring Boot starter already includes SLF4J and Logback.  
+
+_📈 Future Enhancements_  
+
+Add custom logging pattern (logback.xml)  
+
+Save logs into files with rotation policy  
+
+Integrate monitoring tools (ELK / Splunk)  
+
+_🙌 Contributing_  
+
+Contributions are welcome!  
+Feel free to fork and enhance the project.  
