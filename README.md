@@ -4,7 +4,7 @@
 A simple Spring Boot application demonstrating logging using SLF4J and Logback.
 It shows how to log messages at different levels like DEBUG, INFO, and ERROR while handling exceptions.
 
-_🛠 Tech Stack_
+_🛠 Tech Stack_  
 Technology	Version
 Java	17
 Spring Boot	3.x
